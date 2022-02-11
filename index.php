@@ -535,20 +535,67 @@
 
 // 35 
 
-$num = 8456;
-function number($num){
-    // echo $num.' pradinis';
-    if(is_int($num)){
+// $num = 8456;
+
+// function number($num){
+    
+//     // echo $num.' pradinis';
+//     if(is_int($num)){
+//         $arr = str_split($num);
+//         array_multisort($arr);
+//         $newnum = implode('', $arr);
+//         echo $newnum;
+//     } else {
+//         echo 'tai nera skaicius';
+//     }
+// }
+ 
+
+
+// echo number($num);
+
+// 36
+
+// $num = rand(100,1000);
+// function znum($num) {
+//     if(is_float($num)){
+//         echo 'Skaicius nera sveikasis';
         
+//     } else {
+        
+//         for($i = 2; $i < $num; $i++){
+            
+//             if($num%$i == 0 && $i > 1){
+//                 $j++;
+                
+                
+//             }
+            
+//         }
+//         echo $j.' is tiek sveikuju skaiciu dalijasi skaicius '.$num;
+//     }
+// }
+//  echo znum($num);
 
-    } else {
-        echo 'tai nera skaicius';
-    }
-}
- echo number($num);
+// 37 
+// $arr = [];
+// for($m = 0; $m < 10; $m++){
+//     array_push($arr,rand(1,9));
+// }
+// print_r($arr);
 
+// function telefonoNumeris($arr){
+//     if(is_array($arr)){
+//         for($i = 0; $i < count($arr); $i++){
+//             if(is_int($arr[$i]) && count($arr)==10){
+               
+//             }
+//         }
+//         echo '('.$arr[1].$arr[2].$arr[3].')'.$arr[4].$arr[5].$arr[6].'-'.$arr[7].$arr[8].$arr[9].$arr[10];
 
-
+//     }
+// }
+//  echo telefonoNumeris($arr);
 
 
 
